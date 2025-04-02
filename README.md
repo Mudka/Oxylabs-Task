@@ -76,7 +76,7 @@ for page in range(1, 101):
     url = f"https://www.amazon.de/s?k=Nike&page={page}"
     driver.get(url)
     
-    time.sleep(5)  # Wait for JS to load
+    time.sleep(5)  
 
     html = driver.page_source
 
